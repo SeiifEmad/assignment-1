@@ -2,7 +2,7 @@
 1)Difference between cv2.waitKey(0) and cv2.waitKey(1)
 cv2.waitKey(delay) waits for a keyboard event for delay milliseconds and returns the pressed key (as an integer) or -1 if no key was pressed.
 
-3) 
+3)  
 img_bgr = cv2.imread('image.jpg') 
 img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
 
